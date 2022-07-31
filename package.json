@@ -1,0 +1,20 @@
+{
+  "name": "mvc-tech",
+  "version": "1.0.0",
+  "description": "MVC Tech Blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgomet/MVC-Tech-Blog.git"
+  },
+  "author": "Pina Gomet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgomet/MVC-Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/pgomet/MVC-Tech-Blog#readme"
+}
