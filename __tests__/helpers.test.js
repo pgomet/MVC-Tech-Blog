@@ -9,7 +9,6 @@ test('format_date() returns a date string', () => {
 
 const {format_plural} = require('../utils/helpers')
 
-// plural point and comments
 test('format_plural() returns a pluralized word', () => {
       const plural = format_plural('tiger', 2);
       const single = format_plural('lion', 1);
@@ -20,7 +19,6 @@ test('format_plural() returns a pluralized word', () => {
 
 const {format_url} = require('../utils/helpers');
 
-// shortening URLS
 test('format_url() returns a simplified url string', () => {
     const url1 = format_url('http://test.com/page/1');
     const url2 = format_url('https://www.coolstuff.com/abcdefg/');
