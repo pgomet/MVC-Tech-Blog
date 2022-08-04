@@ -16,13 +16,6 @@ const userData = [
         password: "p@ssword2"
     },
     {
-        username: "crystal_c",
-        twitter: "crystal",
-        github: "crystal",
-        email: "crystal_c@gmail.com",
-        password: "p@ssword3"
-    },
-    {
         username: "lena_h",
         twitter: "lenah",
         github: "lenaha",
@@ -36,13 +29,6 @@ const userData = [
         email: "pina_g@gmail.com",
         password: "p@ssword5"
     },
-    {
-        username: "fin",
-        twitter: "fin_r",
-        github: "finr",
-        email: "fin_r@gmail.com",
-        password: "p@ssword6"
-    }
 ]
 
 const seedUsers = () => User.bulkCreate(userData);
